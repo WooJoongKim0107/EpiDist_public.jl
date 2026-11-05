@@ -1,0 +1,32 @@
+name = "EpiDist"
+uuid = "f9683066-8e60-40a7-b4a9-4384411316a6"
+authors = ["wjkim <henrikwjkim@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+QuadGK = "1fd47b50-473d-5c70-9696-f719f8f3bcdc"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+DiffEqCallbacks = "459566f4-90b8-5000-8ac3-15dfb0a30def"
+Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
+Integrals = "de52edbc-65ea-441a-8357-d3a637375a31"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LambertW = "984bce1d-4616-540c-a9ee-88d1112d94c9"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+PropertyArrays = "de04e2eb-689e-4d1a-abcd-f11479f6170a"
+PyFormattedStrings = "5f89f4a4-a228-4886-b223-c468a82ed5b9"
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"
+SciMLBase = "0bca4576-84f4-4d90-8ffe-ffa030f20462"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+OrdinaryDiffEq = "6"
+PropertyArrays = "0.1.2"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
