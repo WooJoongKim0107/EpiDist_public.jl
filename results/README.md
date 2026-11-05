@@ -15,3 +15,6 @@ a separate 14,000-point grid.
 - Figure 5 evaluates the time-series sensitivities from the four saved
   deviator records used in the manuscript.
 - `boundaries.csv` contains the LF/CO phase curves and saved zone paths.
+
+The figure data are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+When reusing them, credit the manuscript authors and link to this repository.

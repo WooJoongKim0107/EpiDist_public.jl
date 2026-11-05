@@ -42,3 +42,8 @@ write_grid_figures(".", 1.1:0.1:15.0, 1:100)
 
 The last call writes the CSVs for Figs. 2, 3, 6, and 7 on a coarser
 14,000-point grid.
+
+## License
+
+Source code is licensed under [MIT](LICENSE). Figure data in `results/`
+are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
